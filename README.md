@@ -49,7 +49,7 @@
 - 从数据库查询会员 `姓名`、`性别`、`生日`
 - 结合会员信息、当前日期和可选补充描述，拼装 Prompt  
 - 调用 LLaMA-3.1-Nemotron-Ultra 模型生成含 Emoji 的个性化中文祝福
-[image](https://github.com/user-attachments/assets/e334017a-9f3b-4f99-b559-32c01bcfc342)
+![image](https://github.com/user-attachments/assets/e334017a-9f3b-4f99-b559-32c01bcfc342)
 
 
 ### 🌦️ 模式 1：天气提醒生成
