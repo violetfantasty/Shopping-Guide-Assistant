@@ -21,7 +21,7 @@
 - **`script.py`（后端业务逻辑）**  
   基于 FastAPI 异步框架，加载预构建的 FAISS 索引与 ID 映射，并通过 Aiomysql 建立数据库连接池。服务暴露 `/script` POST 接口，根据不同 `mode` 调度相应业务流程，调用 AsyncOpenAI 接口执行大模型生成或推理，最终以 StreamingResponse 返回流式结果。
 
-- **`data.py`（向量嵌入构建脚本）**  
+- **`data.ipynb`（向量嵌入构建）**  
   对业务文本数据进行清洗与抽样，通过 NIM 嵌入模型生成向量，并使用 FAISS FlatL2 索引构建离线检索库，保存索引文件与文本 ID 映射，为商品匹配提供底层检索能力。
 
 ---
